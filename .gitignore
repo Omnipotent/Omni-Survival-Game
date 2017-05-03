@@ -1,3 +1,5 @@
+Binaries
+DerivedDataCache
 Intermediate
 Saved
 *.sdf
@@ -13,3 +15,7 @@ SurvivalGame/Releases
 *.log
 *.target.xml
 *.VC.db
+*.xcodeproj
+*.xcworkspace
+.vs/Supercharger/
+*.opendb
