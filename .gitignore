@@ -19,3 +19,4 @@ SurvivalGame/Releases
 *.xcworkspace
 .vs/Supercharger/
 *.opendb
+SurvivalGame/Content/Maps/*_BuiltData.uasset

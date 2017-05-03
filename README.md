@@ -6,10 +6,10 @@ Third-person survival game for Unreal Engine 4 made in C++. It currently feature
 The current plan for this project is to: 
 
 - [50%] Fix bugs and update any outdated code
-- [20%] Remove any possible exploits (prop surfing, leaving the map, and etc:)
+- [40%] Remove any possible exploits (prop surfing, leaving the map, and etc:)
 - [00%] Add more maps to increase replayability
 - [00%] Add more AI monsters to increase enemy diversity and increase difficulty
-- [00%] Overhaul the AI into performing much better and properly detecting the player in difficult situations
+- [20%] Overhaul the AI into performing much better and properly detecting the player in difficult situations
 - [00%] Implement an options page that allows people with slower devices to play with reasonable framerates
 - [00%] Create goals and tasks for the player(s) to complete
 - [??%] Plus a few more things that I have not yet decided on ;D
@@ -24,4 +24,10 @@ The current plan for this project is to:
 [**Key**]
 - <Associated Commit> [Update Type] Notes & Comments
 
-- <Commit 001> [BugFix] Replaced deprecated menu commands and fixed mouse cursor in menus.
+- <OSG001> [BugFix] Replaced deprecated menu commands and fixed mouse cursor in menus.
+- <OSG002> [Exploit] Added invisible barrier around entire map to contain the player within the play area
+- <OSG002> [Exploit] Added invisible barriers above many different locations to prevent the player from becoming unreachable. (Eg: on top of the main building and some rocks)
+- <OSG002> [Terrain] Fixed a floating pillar. Terrain reworked with some new paths painted.
+- <OSG002> [Terrain] Greatly improved navmesh in some areas. Added wider and smoother entries to a few spots. Before there were a few places that had hardly pathing possible.
+- <OSG002> [Props] Added a collision mesh to some props that were lacking them.
+- <OSG00X> [] 
