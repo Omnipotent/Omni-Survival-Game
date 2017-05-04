@@ -22,12 +22,14 @@ The current plan for this project is to:
 ### Change Log / Update Log
 
 [**Key**]
-- <Associated Commit> [Update Type] Notes & Comments
+- {Associated Commit} [Update Type] Notes & Comments
 
-- <OSG001> [BugFix] Replaced deprecated menu commands and fixed mouse cursor in menus.
-- <OSG002> [Exploit] Added invisible barrier around entire map to contain the player within the play area
-- <OSG002> [Exploit] Added invisible barriers above many different locations to prevent the player from becoming unreachable. (Eg: on top of the main building and some rocks)
-- <OSG002> [Terrain] Fixed a floating pillar. Terrain reworked with some new paths painted.
-- <OSG002> [Terrain] Greatly improved navmesh in some areas. Added wider and smoother entries to a few spots. Before there were a few places that had hardly pathing possible.
-- <OSG002> [Props] Added a collision mesh to some props that were lacking them.
-- <OSG00X> [] 
+- {OSG001} [BugFix] Replaced deprecated menu commands and fixed mouse cursor in menus.
+- {OSG002} [Exploit] Added invisible barrier around entire map to contain the player within the play area
+- {OSG002} [Exploit] Added invisible barriers above many different locations to prevent the player from becoming unreachable. (Eg: on top of the main building and some rocks)
+- {OSG002} [Terrain] Fixed a floating pillar. Terrain reworked with some new paths painted.
+- {OSG002} [Terrain] Greatly improved navmesh in some areas. Added wider and smoother entries to a few spots. Before there were a few places that had hardly pathing possible.
+- {OSG002} [Props] Added a collision mesh to some props that were lacking them.
+- {OSG003} [Menu] Created a new Options menu with several different graphics options. Accessible during play through the escape menu.
+- {OSG003} [UI] New font added, Xirod. 
+- {OSG00X} [] 
