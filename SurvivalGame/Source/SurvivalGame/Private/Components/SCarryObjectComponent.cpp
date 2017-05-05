@@ -6,8 +6,8 @@
 
 USCarryObjectComponent::USCarryObjectComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-	MaxPickupDistance = 600;
-	RotateSpeed = 10.0f;
+	MaxPickupDistance = 500;
+	RotateSpeed = 8.0f;
 
 	bUsePawnControlRotation = true;
 	bDoCollisionTest = false;

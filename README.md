@@ -9,7 +9,7 @@ The current plan for this project is to:
 - [45%] Remove any possible exploits (prop surfing, leaving the map, and etc:)
 - [00%] Add more maps to increase replayability
 - [00%] Add more AI monsters to increase enemy diversity and increase difficulty
-- [20%] Overhaul the AI into performing much better and properly detecting the player in difficult situations
+- [40%] Overhaul the AI into performing much better and properly detecting the player in difficult situations
 - [100%] Implement an options page that allows people with slower devices to play with reasonable framerates
 - [00%] Create goals and tasks for the player(s) to complete
 - [??%] Plus a few more things that I have not yet decided on ;D
@@ -31,7 +31,11 @@ The current plan for this project is to:
 - {OSG002} [Props] Added a collision mesh to some props that were lacking them.
 - {OSG003} [Menu] Created a new Options menu with several different graphics options. Accessible during play through the escape menu.
 - {OSG003} [UI] New font added, Xirod. 
-- {OSG004} [Menu] Added OSG logo to Main Menu
+- {OSG004} [Menu] Added (temporary) OSG logo to Main Menu
 - {OSG004} [Levels] Rebuilt lightmaps and split them apart from levels to lower map file sizes.
 - {OSG004} [UI] Black 1u outline added to most text to greatly improve readability on white backgrounds.
-- {OSG00X} [] 
+- {OSG005} [Levels] Improved performance by lowering Simple Collision Mip Level and Collision Mip Level of all inaccessible surrounding terrain.
+- {OSG005} [AI] Improved AI senses to much higher values. Zombies are no longer as clueless as they were before.
+- {OSG005} [Gameplay] Max pickup radius slightly decreased from 600 to 500.
+- {OSG005} [Gameplay] Rotation speed changed to 8 degree increments from 10 degrees. Now there are 45 rotation increments over the previous 36. May slightly increase the need to use the mousewheel, but allows finer precision with rotation.
+- {OSG005} [Levels] Added a ton of foliage throughout the level. This can cause some significant slowdown on slower computers, and may be removed in the future.

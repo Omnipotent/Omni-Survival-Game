@@ -20,3 +20,7 @@ SurvivalGame/Releases
 .vs/Supercharger/
 *.opendb
 SurvivalGame/Content/Maps/*_BuiltData.uasset
+SurvivalGame/Content/InfinityBladeFireLands/
+SurvivalGame/Content/InfinityBladeGrassLands/
+SurvivalGame/Content/InfinityBladeIceLands/
+SurvivalGame/Content/KiteDemo/
